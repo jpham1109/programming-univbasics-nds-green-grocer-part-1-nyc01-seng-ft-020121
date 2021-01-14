@@ -22,6 +22,7 @@ def consolidate_cart(cart)
     else 
       item[:count] += 1 
     end 
+    index += 1
   end 
   result 
   binding.pry
