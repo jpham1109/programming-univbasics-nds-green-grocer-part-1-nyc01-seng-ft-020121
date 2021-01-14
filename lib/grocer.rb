@@ -1,3 +1,4 @@
+require 'pry'
 def find_item_by_name_in_collection(name, collection)
   result = nil 
   collection.each do |item|
@@ -23,6 +24,7 @@ def consolidate_cart(cart)
     end 
   end 
   result 
+  binding.pry
 end 
 
 
